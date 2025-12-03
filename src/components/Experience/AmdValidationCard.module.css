@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid var(--muted-border, #e6e6e6);
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--card-bg, #fff);
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.meta {
+  color: var(--muted-text, #666);
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.sep { opacity: 0.6; }
+
+.summary { margin: 0.5rem 0; }
+
+h4 { margin: 0.5rem 0 0.25rem 0; font-size: 0.95rem; }
